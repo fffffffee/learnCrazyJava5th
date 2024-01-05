@@ -2,7 +2,7 @@ public class PrintCircle
 {
 	public static void main(String[] args)
 	{
-		int radius = 6;
+		int radius = 5;
 		printPattern(radius);
 	}
 
