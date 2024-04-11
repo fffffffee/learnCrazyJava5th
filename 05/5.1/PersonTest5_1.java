@@ -1,9 +1,9 @@
-public class PersonTest
+public class PersonTest5_1
 {
 	public static void main(String[] args)
 	{
-		Person p;
-		p = new Person();
+		Person5_1 p;
+		p = new Person5_1();
 		// var p = new Person();
 		// 访问p的name实例变量，直接为该变量赋值
 		p.name = "李刚";

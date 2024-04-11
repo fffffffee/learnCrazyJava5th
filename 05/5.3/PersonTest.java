@@ -1,4 +1,4 @@
-class Person
+class Person5_3
 {
 	// 定义一个实例变量
 	public String name;
@@ -10,9 +10,9 @@ public class PersonTest
 	public static void main(String[] args)
 	{
 		// 第一次主动使用Person类，该类自动初始化，eyeNum变量开始起作用，输出0
-		System.out.println("Person的eyeNum类变量值：" + Person.eyeNum);
+		System.out.println("Person的eyeNum类变量值：" + Person5_3.eyeNum);
 		// 创建Person对象
-		var p = new Person();
+		var p = new Person5_3();
 		// 通过Person对象的引用p来访问Person对象的name实例变量
 		// 并通过实例访问eyeNum类变量
 		System.out.println("p变量的name变量值是：" + p.name + "p对象的eyeNum变量值是：" + p.eyeNum);
@@ -23,8 +23,8 @@ public class PersonTest
 		// 再次通过Person对象来访问name实例变量和eyeNum类变量
 		System.out.println("p变量的name变量值是：" + p.name + "p对象的eyeNum变量值是：" + p.eyeNum);
 		// 前面通过p修改了Person的eyeNum，此处的Person.eyeNum将输出2
-		System.out.println("Person的eyeNum类变量值：" + Person.eyeNum);
-		var p2 = new Person();
+		System.out.println("Person的eyeNum类变量值：" + Person5_3.eyeNum);
+		var p2 = new Person5_3();
 		// p2访问的eyeNum类变量依然是引用Person类的，因此依然输出2
 		System.out.println("p2对象的eyeNum类变更值：" + p2.eyeNum);
 	}

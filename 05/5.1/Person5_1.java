@@ -1,4 +1,4 @@
-public class Person
+public class Person5_1
 {
 	// 下面定义了两个成员变量
 	public String name;

@@ -1,4 +1,4 @@
-public class IfErrorTest
+public class IfErrorTest4_2
 {
 	public static void main(String[] args)
 	{

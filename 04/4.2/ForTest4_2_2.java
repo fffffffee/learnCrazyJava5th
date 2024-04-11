@@ -1,4 +1,4 @@
-public class ForTest2
+public class ForTest4_2_2
 {
 	public static void main(String[] args)
 	{
